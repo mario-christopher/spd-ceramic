@@ -36,11 +36,15 @@ npm install --location=global @ceramicnetwork/cli@nightly
 
 Open a terminal and start the `rust-ceramic` process:
 
-```ceramic-one daemon```
+```
+ceramic-one daemon
+```
 
 Open another terminal and run the `js-ceramic process`
 
-```CERAMIC_RECON_MODE="true" ceramic daemon --ipfs-api http://localhost:5001```
+```
+CERAMIC_RECON_MODE="true" ceramic daemon --ipfs-api http://localhost:5001
+```
 
 ---
 
@@ -50,7 +54,9 @@ Open another terminal and run the `js-ceramic process`
 
 Clone the project to your local machine, and then install the dependencies.
 
-```yarn install```
+```
+yarn install
+```
 
 ---
 
@@ -59,7 +65,9 @@ You will need an Admin DID to deploy the GraphQL models to the Ceramic node.
 
 Create a private key:
 
-```yarn private-key```
+```
+yarn private-key
+```
 
 Copy the generated private key and paste it in the `package.json` file in:
 
@@ -71,7 +79,9 @@ Copy the generated private key and paste it in the `package.json` file in:
 
 Create the public key:
 
-```yarn public-key```
+```
+yarn public-key
+```
 
 Add the full DID Public key string *(did:key:***)* to the `http-api.admin-dids` array property in the the `~/.ceramic/daemon.config.json` file.
 
@@ -85,15 +95,21 @@ Run the foll. commands:
 
 To (re)create [Composites](src/2-models/composite.generated.json) of the [GraphQL data model](src/2-models/composite.graphql): 
 
-```yarn composite```
+```
+yarn composite
+```
 
 To (re)deploy the Composites to the ceramic node: 
 
-```yarn deploy```
+```
+yarn deploy
+```
 
 To (re)generate a [compiled](src/2-models/composite.compiled.json) version to use in the [client code](src/ceramic.ts): 
 
-```yarn compile```
+```
+yarn compile
+```
 
 The project is now ready to create assertions in Ceramic.
 
@@ -105,26 +121,38 @@ The project is now ready to create assertions in Ceramic.
 
 Endorse a user account :
 
-```yarn acct:endorse```
+```
+yarn acct:endorse
+```
 
 Report a user account :
 
-```yarn acct:report```
+```
+yarn acct:report
+```
 
 Endorse a Snap :
 
-```yarn snap:endorse```
+```
+yarn snap:endorse
+```
 
 Report a Snap :
 
-```yarn snap:report```
+```
+yarn snap:report
+```
 
 Query all user account assertions:
 
-```yarn acct:query```
+```
+yarn acct:query
+```
 
 Query all snap assertions:
 
-```yarn snap:query```
+```
+yarn snap:query
+```
 
 ---
