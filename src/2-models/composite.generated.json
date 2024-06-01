@@ -1,0 +1,95 @@
+{
+  "version": "1.1",
+  "models": {
+    "kjzl6hvfrbw6cb4urbcm2mwwfj40il06fxlpfy71emx0ioi56ypgvvg31nttf84": [
+      {
+        "jws": {
+          "payload": "AXESIGaHtay5jdVtsSf3ilET8i2-xK3Sv0BYqlZTHVwtweec",
+          "signatures": [
+            {
+              "signature": "MfdnqX9Fc3WPczVyN4I6aG1rmnkRV5jO2YmzDut2VmPbVZXuGFDkt6OI2NDUA4yvTWNBf3DtqTl85oYh5zniCg",
+              "protected": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDprZXk6ejZNa3NOTjFCNUR5UXB4M3Yyb0NOOEpXZHNnVGdydzh5ajJMa2Y3TjdxZmczWUpYI3o2TWtzTk4xQjVEeVFweDN2Mm9DTjhKV2RzZ1Rncnc4eWoyTGtmN043cWZnM1lKWCJ9"
+            }
+          ],
+          "link": "bafyreidgq622zomn2vw3cj7xrjirh4rnx3ck3uv7ibmkuvstdvoc3qphtq"
+        },
+        "linkedBlock": "omRkYXRhqmRuYW1lcEFjY291bnRBc3NlcnRpb25ldmlld3OhZmlzc3VlcqFkdHlwZW9kb2N1bWVudEFjY291bnRmc2NoZW1hpmR0eXBlZm9iamVjdGUkZGVmc6NqR3JhcGhRTERJRKRkdHlwZWZzdHJpbmdldGl0bGVqR3JhcGhRTERJRGdwYXR0ZXJueI9eZGlkOlthLXpBLVowLTkuISMkJSYnKitcLz0/Xl9ge3x9fi1dKzpbYS16QS1aMC05LiEjJCUmJyorXC89P15fYHt8fX4tXSo6P1thLXpBLVowLTkuISMkJSYnKitcLz0/Xl9ge3x9fi1dKjo/W2EtekEtWjAtOS4hIyQlJicqK1wvPT9eX2B7fH1+LV0qJGltYXhMZW5ndGgYZG9UcnVzdFdvcnRoaW5lc3OlZHR5cGVmb2JqZWN0ZXRpdGxlb1RydXN0V29ydGhpbmVzc2hyZXF1aXJlZINlc2NvcGVlbGV2ZWxmcmVhc29uanByb3BlcnRpZXOjZWxldmVso2R0eXBlZm51bWJlcmdtYXhpbXVtAWdtaW5pbXVtIGVzY29wZaJkdHlwZWZzdHJpbmdpbWF4TGVuZ3RoGGRmcmVhc29uo2R0eXBlZWFycmF5ZWl0ZW1zomR0eXBlZnN0cmluZ2ltYXhMZW5ndGgYZGhtYXhJdGVtcxhkdGFkZGl0aW9uYWxQcm9wZXJ0aWVz9HgYQWNjb3VudENyZWRlbnRpYWxTdWJqZWN0pWR0eXBlZm9iamVjdGV0aXRsZXgYQWNjb3VudENyZWRlbnRpYWxTdWJqZWN0aHJlcXVpcmVkgW90cnVzdFdvcnRoaW5lc3NqcHJvcGVydGllc6FvdHJ1c3RXb3J0aGluZXNzo2R0eXBlZWFycmF5ZWl0ZW1zoWQkcmVmdyMvJGRlZnMvVHJ1c3RXb3J0aGluZXNzaG1heEl0ZW1zGGR0YWRkaXRpb25hbFByb3BlcnRpZXP0ZyRzY2hlbWF4LGh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1haHJlcXVpcmVkhmdjb250ZXh0ZHR5cGVsaXNzdWFuY2VEYXRlaXN1YmplY3RJZHFjcmVkZW50aWFsU3ViamVjdGpwcm9vZlZhbHVlanByb3BlcnRpZXOmZHR5cGWjZHR5cGVlYXJyYXllaXRlbXOiZHR5cGVmc3RyaW5naW1heExlbmd0aBgyaG1heEl0ZW1zBWdjb250ZXh0o2R0eXBlZWFycmF5ZWl0ZW1zomR0eXBlZnN0cmluZ2ltYXhMZW5ndGgYMmhtYXhJdGVtcwVpc3ViamVjdElkoWQkcmVmciMvJGRlZnMvR3JhcGhRTERJRGpwcm9vZlZhbHVlomR0eXBlZnN0cmluZ2ltYXhMZW5ndGgYlmxpc3N1YW5jZURhdGWiZHR5cGVmc3RyaW5naW1heExlbmd0aBgecWNyZWRlbnRpYWxTdWJqZWN0oWQkcmVmeCAjLyRkZWZzL0FjY291bnRDcmVkZW50aWFsU3ViamVjdHRhZGRpdGlvbmFsUHJvcGVydGllc/RndmVyc2lvbmMyLjBpaW50ZXJmYWNl9GlyZWxhdGlvbnOhaXN1YmplY3RJZKFkdHlwZWdhY2NvdW50amltcGxlbWVudHOAa2Rlc2NyaXB0aW9ueCBBbiBhc3NlcnRpb24gZm9yIGEgdXNlciBhY2NvdW50Lm9hY2NvdW50UmVsYXRpb26iZHR5cGVjc2V0ZmZpZWxkc4Fpc3ViamVjdElkb2ltbXV0YWJsZUZpZWxkc4BmaGVhZGVyo2NzZXBlbW9kZWxlbW9kZWxSzgEEAXFxCwAJaG1vZGVsLXYxa2NvbnRyb2xsZXJzgXg4ZGlkOmtleTp6Nk1rc05OMUI1RHlRcHgzdjJvQ044Sldkc2dUZ3J3OHlqMkxrZjdON3FmZzNZSlg="
+      }
+    ],
+    "kjzl6hvfrbw6c74pc0gx2p706qfbylmxayfymu2kh98ialh708gqk38urqlrdt8": [
+      {
+        "jws": {
+          "payload": "AXESIDq_hG-YhfYENtd_NYMg3IZ1PxAWb13F4bCt49eMyrgp",
+          "signatures": [
+            {
+              "signature": "u7b4u1WFKfL41yI2-oFvONpkUHNKlH2nCt9prpwoIsu9Pm8JQmduj5LoX9LAXRGAQA2jU5QruS8m1OWIuTu2Cg",
+              "protected": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDprZXk6ejZNa3NOTjFCNUR5UXB4M3Yyb0NOOEpXZHNnVGdydzh5ajJMa2Y3TjdxZmczWUpYI3o2TWtzTk4xQjVEeVFweDN2Mm9DTjhKV2RzZ1Rncnc4eWoyTGtmN043cWZnM1lKWCJ9"
+            }
+          ],
+          "link": "bafyreib2x6cg7gef6ycdnv37gwbsbxegou7raftplxc6dmfn4plyzsvyfe"
+        },
+        "linkedBlock": "omRkYXRhqmRuYW1lbVNuYXBBc3NlcnRpb25ldmlld3OhZmlzc3VlcqFkdHlwZW9kb2N1bWVudEFjY291bnRmc2NoZW1hpmR0eXBlZm9iamVjdGUkZGVmc6JsU3RhdHVzUmVhc29upWR0eXBlZm9iamVjdGV0aXRsZWxTdGF0dXNSZWFzb25ocmVxdWlyZWSCZHR5cGVldmFsdWVqcHJvcGVydGllc6JkdHlwZaJkdHlwZWZzdHJpbmdpbWF4TGVuZ3RoGDJldmFsdWWjZHR5cGVlYXJyYXllaXRlbXOiZHR5cGVmc3RyaW5naW1heExlbmd0aBhkaG1heEl0ZW1zGGR0YWRkaXRpb25hbFByb3BlcnRpZXP0dVNuYXBDcmVkZW50aWFsU3ViamVjdKVkdHlwZWZvYmplY3RldGl0bGV1U25hcENyZWRlbnRpYWxTdWJqZWN0aHJlcXVpcmVkgm1jdXJyZW50U3RhdHVzbHN0YXR1c1JlYXNvbmpwcm9wZXJ0aWVzomxzdGF0dXNSZWFzb26hZCRyZWZ0Iy8kZGVmcy9TdGF0dXNSZWFzb25tY3VycmVudFN0YXR1c6JkdHlwZWZzdHJpbmdpbWF4TGVuZ3RoGDJ0YWRkaXRpb25hbFByb3BlcnRpZXP0ZyRzY2hlbWF4LGh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1haHJlcXVpcmVkhmdjb250ZXh0ZHR5cGVsaXNzdWFuY2VEYXRlZnNuYXBJZHFjcmVkZW50aWFsU3ViamVjdGpwcm9vZlZhbHVlanByb3BlcnRpZXOmZHR5cGWjZHR5cGVlYXJyYXllaXRlbXOiZHR5cGVmc3RyaW5naW1heExlbmd0aBgyaG1heEl0ZW1zBWZzbmFwSWSiZHR5cGVmc3RyaW5naW1heExlbmd0aBhkZ2NvbnRleHSjZHR5cGVlYXJyYXllaXRlbXOiZHR5cGVmc3RyaW5naW1heExlbmd0aBgyaG1heEl0ZW1zBWpwcm9vZlZhbHVlomR0eXBlZnN0cmluZ2ltYXhMZW5ndGgYlmxpc3N1YW5jZURhdGWiZHR5cGVmc3RyaW5naW1heExlbmd0aBgecWNyZWRlbnRpYWxTdWJqZWN0oWQkcmVmeB0jLyRkZWZzL1NuYXBDcmVkZW50aWFsU3ViamVjdHRhZGRpdGlvbmFsUHJvcGVydGllc/RndmVyc2lvbmMyLjBpaW50ZXJmYWNl9GlyZWxhdGlvbnOgamltcGxlbWVudHOAa2Rlc2NyaXB0aW9ueBhBbiBhc3NlcnRpb24gZm9yIGEgc25hcC5vYWNjb3VudFJlbGF0aW9uomR0eXBlY3NldGZmaWVsZHOBZnNuYXBJZG9pbW11dGFibGVGaWVsZHOAZmhlYWRlcqNjc2VwZW1vZGVsZW1vZGVsUs4BBAFxcQsACWhtb2RlbC12MWtjb250cm9sbGVyc4F4OGRpZDprZXk6ejZNa3NOTjFCNUR5UXB4M3Yyb0NOOEpXZHNnVGdydzh5ajJMa2Y3TjdxZmczWUpY"
+      }
+    ]
+  },
+  "indices": {
+    "kjzl6hvfrbw6cb4urbcm2mwwfj40il06fxlpfy71emx0ioi56ypgvvg31nttf84": [
+      {
+        "fields": [
+          {
+            "path": [
+              "issuanceDate"
+            ]
+          }
+        ]
+      },
+      {
+        "fields": [
+          {
+            "path": [
+              "subjectId"
+            ]
+          }
+        ]
+      }
+    ],
+    "kjzl6hvfrbw6c74pc0gx2p706qfbylmxayfymu2kh98ialh708gqk38urqlrdt8": [
+      {
+        "fields": [
+          {
+            "path": [
+              "issuanceDate"
+            ]
+          }
+        ]
+      },
+      {
+        "fields": [
+          {
+            "path": [
+              "snapId"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "aliases": {
+    "kjzl6hvfrbw6cb4urbcm2mwwfj40il06fxlpfy71emx0ioi56ypgvvg31nttf84": "AccountAssertion",
+    "kjzl6hvfrbw6c74pc0gx2p706qfbylmxayfymu2kh98ialh708gqk38urqlrdt8": "SnapAssertion"
+  },
+  "views": {
+    "account": {},
+    "root": {},
+    "models": {
+      "kjzl6hvfrbw6cb4urbcm2mwwfj40il06fxlpfy71emx0ioi56ypgvvg31nttf84": {},
+      "kjzl6hvfrbw6c74pc0gx2p706qfbylmxayfymu2kh98ialh708gqk38urqlrdt8": {}
+    }
+  },
+  "commonEmbeds": [
+    "AccountCredentialSubject",
+    "TrustWorthiness",
+    "SnapCredentialSubject",
+    "StatusReason"
+  ]
+}

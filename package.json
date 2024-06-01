@@ -1,0 +1,42 @@
+{
+  "name": "spd-ceramic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "private-key": "composedb did:generate-private-key",
+    "public-key": "DID_PRIVATE_KEY=1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cffe composedb did:from-private-key",
+    "composite": "composedb composite:create src/2-models/composite.graphql --output=src/2-models/composite.generated.json --did-private-key=1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cffe",
+    "deploy": "composedb composite:deploy src/2-models/composite.generated.json --ceramic-url=http://localhost:7007 --did-private-key=1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cffe",
+    "compile": "composedb composite:compile src/2-models/composite.generated.json src/2-models/composite.compiled.json",
+    "acct:endorse": "tsx src/3-workflow/account-endorse.ts",
+    "acct:report": "tsx src/3-workflow/account-report.ts",
+    "acct:query": "tsx src/3-workflow/account-query.ts",
+    "snap:endorse": "tsx src/3-workflow/snap-endorse.ts",
+    "snap:report": "tsx src/3-workflow/snap-report.ts",
+    "snap:query": "tsx src/3-workflow/snap-query.ts",
+    "listen": "tsx src/3-workflow/listen.ts"
+  },
+  "devDependencies": {
+    "@composedb/types": "^0.7.1",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@ceramicnetwork/codecs": "^4.10.0",
+    "@ceramicnetwork/http-client": "^5.11.0",
+    "@composedb/cli": "0.7.1",
+    "@composedb/client": "^0.7.1",
+    "@composedb/devtools": "^0.7.1",
+    "@composedb/devtools-node": "^0.7.1",
+    "@didtools/pkh-ethereum": "^0.5.0",
+    "codeco": "^1.2.1",
+    "cross-eventsource": "^1.0.0",
+    "did-session": "^3.1.0",
+    "ethers": "^6.12.1",
+    "graphql": "^16.8.1",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0"
+  }
+}

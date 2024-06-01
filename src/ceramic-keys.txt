@@ -1,0 +1,18 @@
+NOTE:
+- This is a random generated key for Dev purposes. 
+- DO NOT USE IT IN PRODUCTION. !!!!
+
+====================================
+Private Key: 1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cffe
+Public Key: did:key:z6MksNN1B5DyQpx3v2oCN8JWdsgTgrw8yj2Lkf7N7qfg3YJX
+====================================
+
+- To generate the private key, run:
+  `yarn private-key`
+- To generate the public key, paste the private key in the package.json script and run:
+  `yarn public-key`
+
+- Add the DID Public key to the `http-api.admin-dids` array property in the the `daemon.config.json` file.
+- Restart the `js-ceramic` process in the terminal.
+- Now you can Create, Deploy and Compile your Models to the Ceramic Client using the above private/public keys
+  

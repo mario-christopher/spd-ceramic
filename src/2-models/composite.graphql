@@ -1,0 +1,49 @@
+type AccountAssertion 
+@createModel(accountRelation: SET, accountRelationFields: ["subjectId"], description: "An assertion for a user account.")
+@createIndex(fields: [{ path: "issuanceDate" }])
+@createIndex(fields: [{ path: "subjectId" }])
+{
+  context: [String!]! @string(maxLength: 50) @list(maxLength: 5)
+  type: [String!]! @string(maxLength: 50) @list(maxLength: 5)
+  issuanceDate: String! @string(maxLength: 30)
+  issuer: DID! @documentAccount
+
+  subjectId: DID! @accountReference
+  credentialSubject: AccountCredentialSubject!
+  proofValue: String! @string(maxLength: 150)
+}
+
+type AccountCredentialSubject {
+  trustWorthiness: [TrustWorthiness!]! @list(maxLength: 100)
+}
+
+type TrustWorthiness {
+  scope: String! @string(maxLength: 100)
+  level: Float! @float(min:-1.0, max: 1.0)
+  reason: [String]! @string(maxLength: 100) @list(maxLength: 100)
+}
+
+type SnapAssertion 
+@createModel(accountRelation: SET, accountRelationFields: ["snapId"], description: "An assertion for a snap.")
+@createIndex(fields: [{ path: "issuanceDate" }])
+@createIndex(fields: [{ path: "snapId" }])
+{
+  context: [String!]! @string(maxLength: 50) @list(maxLength: 5)
+  type: [String!]! @string(maxLength: 50) @list(maxLength: 5)
+  issuanceDate: String! @string(maxLength: 30)
+  issuer: DID! @documentAccount
+
+  snapId: String! @string(maxLength: 100)
+  credentialSubject: SnapCredentialSubject!
+  proofValue: String! @string(maxLength: 150)
+}
+
+type SnapCredentialSubject {
+  currentStatus: String! @string(maxLength: 50)
+  statusReason: StatusReason!
+}
+
+type StatusReason {
+  type: String! @string(maxLength: 50)
+  value: [String]! @string(maxLength: 100) @list(maxLength: 100)
+}
