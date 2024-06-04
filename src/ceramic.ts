@@ -13,7 +13,7 @@ export const CeramicNodeURL = "http://localhost:7007/";
 
 /** This method should be called from a Server application in the backend to create the DID using a PrivateKey */
 export async function createComposeClientOnServer() {
-  const seed = "1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cffe";  // from ./keys.txt
+  const seed = "1d82241bf6bf7ef2d4409627bb581c34aad533fd1dc677c9b5d53ea2c3b9cfffe";  // from src/ceramic-keys.txt
   const privateKey = fromString(seed, "base16");
   const did = new DID({
     resolver: getResolver(),
